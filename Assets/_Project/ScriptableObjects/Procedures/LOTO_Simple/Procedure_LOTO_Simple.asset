@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd12fe1824470744f939a5eebc441aff, type: 3}
+  m_Name: Procedure_LOTO_Simple
+  m_EditorClassIdentifier: Assembly-CSharp::Project.Procedure.ProcedureDefinitionSO
+  procedureId: Procedure_LOTO_Simple
+  displayName: LOTO Simple
+  description: 
+  steps:
+  - {fileID: 11400000, guid: 7d8e53a38c1c56e4a94a504ee8c9002f, type: 2}
+  - {fileID: 11400000, guid: 572ccb1e6af8ac945b859a562dfdc56f, type: 2}
