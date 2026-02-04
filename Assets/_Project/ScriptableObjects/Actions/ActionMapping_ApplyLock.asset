@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ActionMapping_ApplyLock
   m_EditorClassIdentifier: Assembly-CSharp::Project.Actions.Mapping.ActionMappingSO
   actionType: 4
-  targetId: 
+  target: 1
   boolKey: lockApplied
   boolValue: 1

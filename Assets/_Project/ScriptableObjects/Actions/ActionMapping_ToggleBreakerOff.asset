@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: ActionMapping_ToggleBreakerOff
   m_EditorClassIdentifier: Assembly-CSharp::Project.Actions.Mapping.ActionMappingSO
   actionType: 3
-  targetId: breaker_01
+  target: 1
   boolKey: breakerOff
   boolValue: 1

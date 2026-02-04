@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b84767d2cbc8a094d8bccfcd4240e150, type: 3}
   m_Name: StateKeyCatalog
   m_EditorClassIdentifier: Assembly-CSharp::Project.Core.StateKeyCatalogSO
-  keys: []
+  keys:
+  - breakerOff
+  - lockApplied
+  - tagApplied
+  - equipmentIdentified
+  - energySourceIdentified
