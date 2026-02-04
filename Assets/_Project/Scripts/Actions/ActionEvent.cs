@@ -3,17 +3,17 @@ namespace Project.Actions
     public readonly struct ActionEvent
     {
         public readonly ActionType Type;
-        public readonly string TargetId;
+        public readonly TargetId Target;
 
-        public ActionEvent(ActionType type, string targetId)
+        public ActionEvent(ActionType type, TargetId target)
         {
             Type = type;
-            TargetId = targetId;
+            Target = target;
         }
 
         public override string ToString()
         {
-            return $"ActionEvent: {Type} on {TargetId}";
+            return $"ActionEvent: {Type} on {Target}";
         }
     }
 }

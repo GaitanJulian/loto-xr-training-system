@@ -1,5 +1,4 @@
 using UnityEngine;
-using Project.Actions;
 using Project.Core;
 
 namespace Project.Actions.Mapping
@@ -8,7 +7,9 @@ namespace Project.Actions.Mapping
     public sealed class ActionMappingSO : ScriptableObject
     {
         public ActionType actionType;
-        public string targetId;
+
+        [Tooltip("Si es None, aplica a cualquier target.")]
+        public TargetId target = TargetId.None;
 
         [Header("WorldState effect")]
         public string boolKey;
@@ -17,15 +18,13 @@ namespace Project.Actions.Mapping
         public void Apply(WorldState state)
         {
             if (!string.IsNullOrEmpty(boolKey))
-            {
                 state.SetBool(boolKey, boolValue);
-            }
         }
 
         public bool Matches(ActionEvent evt)
         {
             if (evt.Type != actionType) return false;
-            if (!string.IsNullOrEmpty(targetId) && evt.TargetId != targetId) return false;
+            if (target != TargetId.None && evt.Target != target) return false;
             return true;
         }
     }
