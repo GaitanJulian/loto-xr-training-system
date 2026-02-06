@@ -6,8 +6,9 @@ namespace Project.Actions
 
         // LOTO Simple se pueden ampliar para futuras simulaciones
         Breaker_01,
-        Panel_01,
-        Motor_01,
-        Valve_01
+        LockoutSocket_01,
+        PadlockSocket_01,
+        TagSocket_01,
+        BreakerPanelDoor_01,
     }
 }
