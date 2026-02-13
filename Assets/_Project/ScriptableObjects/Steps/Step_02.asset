@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Step_02
   m_EditorClassIdentifier: Assembly-CSharp::Project.Procedure.StepDefinitionSO
   stepId: 02
-  instruction: 
-  completionCondition: {fileID: 11400000, guid: c084e2059ab475a449689074004210d3, type: 2}
+  instruction: lockout installed
+  completionCondition: {fileID: 11400000, guid: f158594ef1a97c7439a6586e0799f805, type: 2}

@@ -16,6 +16,7 @@ namespace Project.Procedure
         private int _currentIndex;
 
         public event Action<StepDefinitionSO> OnStepChanged;
+        public event Action<ActionEvent> OnActionPublished;
 
         [Header("Actions")]
         [SerializeField] private ActionMappingSetSO actionMappings;
@@ -114,6 +115,7 @@ namespace Project.Procedure
 
         public void PublishAction(ActionEvent evt)
         {
+            OnActionPublished?.Invoke(evt);   // Notifica a controladores externos (MachineStateController, UI, etc.)
             _actionBus.Publish(evt);
         }
 

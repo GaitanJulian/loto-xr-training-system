@@ -9,6 +9,9 @@ namespace Project.Actions
         ApplyLock,
         AttachTag,
         TryStart,
-        VerifyIsolation
+        VerifyIsolation,
+        AttachLockoutDevice,
+        TestBreakerMovement,
+        MachineStart
     }
 }

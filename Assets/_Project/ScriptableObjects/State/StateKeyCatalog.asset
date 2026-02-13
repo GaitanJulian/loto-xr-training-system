@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Project.Core.StateKeyCatalogSO
   keys:
   - breakerOff
-  - lockApplied
-  - tagApplied
   - equipmentIdentified
   - energySourceIdentified
+  - lockoutInstalled
+  - padlockApplied
+  - tagAttached
+  - lockVerified

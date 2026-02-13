@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18aa6be0eef7b9246be6269408575052, type: 3}
   m_Name: Cond_padLockApplied
   m_EditorClassIdentifier: Assembly-CSharp::Project.Procedure.Conditions.BoolFlagConditionSO
-  key: padLockApplied
+  key: padlockApplied
   expectedValue: 1

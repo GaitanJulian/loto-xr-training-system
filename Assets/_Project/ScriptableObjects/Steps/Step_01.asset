@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Step_01
   m_EditorClassIdentifier: Assembly-CSharp::Project.Procedure.StepDefinitionSO
   stepId: 01
-  instruction: 
+  instruction: Breaker off
   completionCondition: {fileID: 11400000, guid: b91c04e7fe821b5489dfbe3006639c81, type: 2}
